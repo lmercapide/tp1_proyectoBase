@@ -1,8 +1,10 @@
+
+
 {
   "development": {
-    "username": 'globalConstants.DB_USERNAME'
-    "password": globalConstants.DB_PASSWORD,
-    "database": globalConstants.DB_NAME,
+    "username": "./const/globalConstants.DB_USERNAME",
+    "password": "./const/globalConstants.DB_PASSWORD",
+    "database": "./const/globalConstants.DB_NAME",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },

@@ -2,8 +2,8 @@ require('dotenv').config()
 
 module.exports = {
 
-   PORT : process.env.PORT || 5000
-   DB_NAME=mi_base_datos
-   DB_USERNAME=postgres
-   DB_PASSWORD=1234
+   PORT : process.env.PORT || 5000,
+   DB_NAME: process.env.DB_NAME,
+   DB_USERNAME: process.env.DB_USERNAME,
+   DB_PASSWORD: process.env.DB_PASSWORD
 }
